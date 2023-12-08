@@ -35,7 +35,7 @@ namespace _66
                 int a = Convert.ToInt32(ListBoxData.Items[0]);
                 int m=1;
                 for (int i = 1; i <= a; ++i)
-                { m *= 1; }
+                { m *= i; }
                 TextBlockAnswer.Text = $"{m}";
             }
             catch (FormatException)
