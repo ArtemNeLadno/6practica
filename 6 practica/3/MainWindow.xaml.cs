@@ -34,9 +34,9 @@ namespace _66
             {
                 int a = Convert.ToInt32(ListBoxData.Items[0]);
                 int b = Convert.ToInt32(ListBoxData.Items[1]);
-                int m=0;
+                int m=1;
                 for (int i = a; i <= b; ++i)
-                {  m = m + 1 * 1; }
+                {  m = m * i; }
                 TextBlockAnswer.Text = $"{m}";
             }
             catch (FormatException)
